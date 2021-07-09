@@ -1,21 +1,47 @@
 # Cards
 
-**TODO: Add description**
+First simple project using Elixir.
 
-## Installation
+Using Cards module, you can create a deck of cards, shuffling and deal a card.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `cards` to your list of dependencies in `mix.exs`:
+## Run Locally
 
-```elixir
-def deps do
-  [
-    {:cards, "~> 0.1.0"}
-  ]
-end
+Clone the project
+
+```bash
+  git clone https://github.com/leoyassuda/cards.git
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/cards](https://hexdocs.pm/cards).
+Go to the project directory
 
+```bash
+  cd cards
+```
+
+Install dependencies
+
+```bash
+  mix deps.get
+```
+
+Start iex
+
+```bash
+  iex -S mix
+```
+
+Generate project documentation
+
+```bash
+  mix docs
+```
+
+Open in browser the file generated in docs folder `index.html`
+
+## Run Tests
+
+mix test
+
+### Authors
+
+* **Leo Yassuda** - *Initial work* - Portfolio [leoyas.com](https://leoyas.com)
